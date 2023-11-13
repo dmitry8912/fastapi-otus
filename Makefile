@@ -33,3 +33,6 @@ basic_auth:
 
 oauth:
 	python 8_security_oauth/serve.py
+
+jwt:
+	python 9_security_jwt/serve.py
