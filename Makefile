@@ -21,3 +21,15 @@ body_parameters:
 
 pydantic:
 	python 4_pydantic/serve.py
+
+orm:
+	python 5_sqlalchemy/serve.py
+
+orm_async:
+	python 6_sqlalchemy_async/serve.py
+
+basic_auth:
+	python 7_security_basic/serve.py
+
+oauth:
+	python 8_security_oauth/serve.py
